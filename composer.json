@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Database\\": "src/database"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
