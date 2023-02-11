@@ -4,6 +4,9 @@
       "Database\\": "src/database"
     }
   },
+  "scripts": {
+    "tests": "php vendor/bin/phpunit test"
+  },
   "require-dev": {
     "phpunit/phpunit": "^10.0"
   }
