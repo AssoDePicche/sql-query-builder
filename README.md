@@ -4,7 +4,7 @@ A module that allows you build and modify SQL queries in an easy way.
 
 ## How to Use
 
-Instantiate the [Query Builder](src/database/builder/QueryBuilder.php) class and then start writing your commands with the object's methods. When you have finished writing your query use the getQuery() method, wich will return the sql query in a string.
+Instantiate the [Query Builder](src/database/builder/QueryBuilder.php) class and then start writing your commands with the object's methods. When you have finished writing your query use the *getQuery()* method, wich will return the sql query in a string.
 
 ```php
 <?php
@@ -22,3 +22,7 @@ $sql = $builder->select('users', ['username'])->where('username', '=')->limit(0,
 ## Composer Commands
 
 - **composer run tests**: Run all the tests in test directory
+
+## Future Features
+
+- I am planning to add a join method to query the constructor class, maybe an order by function as well.
